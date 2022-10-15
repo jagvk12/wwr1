@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.card-img{
+    border: 10px solid black;
+}
+
+.social img{
+    padding-top: 15px;
+}   
+
+logo_link {
+    padding-top: 5px;
+}
+.home-title {
+    font-family: 'Anton', sans-serif;
+    margin-top: 10px;
+}   
+
+.msg h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+
+}
+
+h2 {
+    margin: 0; 
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 
 #content { 
     max-width: 1600px;
@@ -9,7 +41,7 @@ nav a {
     text-align: center; 
     color: white;
     text-decoration: none;
-    
+    padding: 35px;
 }
 
 #hero-box{
@@ -37,6 +69,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 
 #background {
     height: 725px;
@@ -46,6 +82,9 @@ main section {
 
 body {
     background-color: #fefae0; 
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -66,6 +105,10 @@ nav a:hover {
 .book{
     background-color: #fefae0; 
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px
 }
 
 
@@ -73,6 +116,10 @@ nav a:hover {
     background-color: #283618;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px
 }
 
 
@@ -110,13 +157,18 @@ nav a:hover {
 
 .msg{
     background-color: #283618;
-    color: white
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 
 footer{
     background-color: #283618;
-    color:white
+    color:white;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -128,9 +180,22 @@ footer p {
          
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
 }
 
